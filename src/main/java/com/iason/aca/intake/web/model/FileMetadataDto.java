@@ -19,6 +19,7 @@ import java.time.OffsetDateTime;
 @AllArgsConstructor
 public class FileMetadataDto {
 
-    private String fileName;
-    private OffsetDateTime fileReceivedDate;
+    private String sourceFileName;
+    private OffsetDateTime fileReceivedDateTime;
+    private String fileStatus;
 }
