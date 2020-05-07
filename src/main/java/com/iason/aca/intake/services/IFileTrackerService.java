@@ -13,5 +13,5 @@ import com.iason.aca.intake.web.model.FileMetadataDto;
  **/
 public interface IFileTrackerService {
     Long startTrackingFile(FileMetadataDto fileMetadataDto);
-    void receiveEnrollmentMessage(FileMetadataDto fileMetadataDto);
+    //void receiveEnrollmentMessage(FileMetadataDto fileMetadataDto);
 }
