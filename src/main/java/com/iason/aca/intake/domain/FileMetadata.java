@@ -4,6 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.UUID;
 
 /**
  * Created by IntelliJ IDEA
@@ -30,6 +31,8 @@ public class FileMetadata {
     private Long fileId;
 
     private String sourceFileName;
+
+    private UUID sourceFileId;
 
     private Timestamp fileReceivedDateTime;
 

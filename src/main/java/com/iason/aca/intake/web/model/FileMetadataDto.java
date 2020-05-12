@@ -3,6 +3,7 @@ package com.iason.aca.intake.web.model;
 import lombok.*;
 
 import java.time.OffsetDateTime;
+import java.util.UUID;
 
 /**
  * Created by IntelliJ IDEA
@@ -20,6 +21,7 @@ import java.time.OffsetDateTime;
 public class FileMetadataDto {
 
     private String sourceFileName;
+    private UUID sourceFileId;
     private OffsetDateTime fileReceivedDateTime;
     private String fileStatus;
 }
