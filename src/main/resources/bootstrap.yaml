@@ -8,4 +8,4 @@ spring:
       discovery:
         service-id: iason-config-server
   profiles:
-    active: qa
+    active: dev
